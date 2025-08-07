@@ -9,6 +9,11 @@
 }
 
 @font-face {
+    font-family: playfair;
+    src: url(./Fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
     font-family: Gilroy;
     src: url(./Fonts/Gilroy-Semibold.otf);
 }
@@ -24,7 +29,7 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     color: #fff;
-    font-family: "Moranga";
+    font-family: "playfair";
     cursor: default;
 }
 
@@ -482,11 +487,11 @@ nav a .logo-img {
 }
 
 #intro-div h1 {
-    word-spacing: 0.2vw;
-    letter-spacing: 0.01vw;
-    font-size: 4.4vw;
-    line-height: 1.3;
-    margin-bottom: 1vw;
+    word-spacing: 0.5vw;
+    letter-spacing: 0.2vw;
+    font-size: 2vw;
+    line-height:5vh ;
+    margin-bottom: vw;
 }
 
 #intro-div h1 a {
@@ -575,11 +580,11 @@ nav a .logo-img {
     }
 
     #intro-div h1 {
-        word-spacing: 0.6vw;
+        word-spacing: 0.3vw;
         letter-spacing: 0.01vw;
-        font-size: 8.2vw;
-        font-weight: 100;
-        line-height: 11.8vw;
+        font-size: 5vw;
+        font-weight: 50;
+        line-height: 10vw;
     }
 
     #intro-div h1 a {
