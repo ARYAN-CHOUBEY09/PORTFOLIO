@@ -164,6 +164,8 @@ function disableContextMenu() {
 
 }
 
+
+
 locomotiveScrollTriggerSetup()
 rotatingArrow()
 scrollingNamediv()
